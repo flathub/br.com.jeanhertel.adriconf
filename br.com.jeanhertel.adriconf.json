@@ -196,6 +196,13 @@
             {
                 "type": "file",
                 "path": "br.com.jeanhertel.adriconf.appdata.xml"
+            },
+            {
+                "type": "shell",
+                "//": "FIXME: Upstream this, checking if running in flatpak",
+                "commands": [
+                    "sed -i 's|/etc/drirc|/var/run/host/etc/drirc|' ConfigurationLoader.cpp"
+                ]
             }
          ],
          "build-commands": [
