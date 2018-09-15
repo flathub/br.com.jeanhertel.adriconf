@@ -26,6 +26,17 @@
       </screenshot>
    </screenshots>
    <releases>
+      <release version="1.3" date="2018-09-15" urgency="low">
+         <description>
+            <p>This is mostly a bug-fixing release.</p>
+            <ul>
+               <li>Make changes to packaging files @velurimithun</li>
+               <li>Add pt_BR translation to flatpak data. Fixes #40</li>
+               <li>Fixes incorrect image urls on flatpak metadata</li>
+               <li>Fix uncaught exception when no user defined config file exists</li>
+            </ul>
+         </description>
+      </release>
       <release version="1.2" date="2018-09-06" urgency="low">
          <description>
             <p>This release has the following improvements.</p>
