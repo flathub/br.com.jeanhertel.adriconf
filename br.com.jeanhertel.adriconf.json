@@ -196,20 +196,12 @@
             {
                 "type": "file",
                 "path": "br.com.jeanhertel.adriconf.appdata.xml"
-            },
-            {
-                "type": "file",
-                "path": "br.com.jeanhertel.adriconf.desktop"
-            },
-            {
-                "type": "file",
-                "path": "br.com.jeanhertel.adriconf.png"
             }
          ],
          "build-commands": [
              "install -Dm644 br.com.jeanhertel.adriconf.appdata.xml /app/share/appdata/br.com.jeanhertel.adriconf.appdata.xml",
-             "install -Dm644 br.com.jeanhertel.adriconf.desktop /app/share/applications/br.com.jeanhertel.adriconf.desktop",
-             "install -Dm644 br.com.jeanhertel.adriconf.png /app/share/icons/hicolor/256x256/apps/br.com.jeanhertel.adriconf.png"
+             "install -Dm644 flatpak/br.com.jeanhertel.adriconf.desktop /app/share/applications/br.com.jeanhertel.adriconf.desktop",
+             "install -Dm644 flatpak/br.com.jeanhertel.adriconf.png /app/share/icons/hicolor/256x256/apps/br.com.jeanhertel.adriconf.png"
          ]
       }
    ]
