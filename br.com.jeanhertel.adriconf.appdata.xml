@@ -26,6 +26,21 @@
       </screenshot>
    </screenshots>
    <releases>
+      <release version="1.4" date="2019-01-26" urgency="low">
+          <description>
+              <p>This release finally brings the Wayland support along with some other fixes.</p>
+              <ul>
+                  <li>Fix for AppStream validation @har9862</li>
+                  <li>Remove DEBIAN build instructions and any debian packaging related artifact as we now provide a flatpak package @jlHertel</li>
+                  <li>Remove glXQueryRendererIntegerMESA usage @velurimithun</li>
+                  <li>Update the translation files @velurimithun</li>
+                  <li>Allow to build with LibXML++ 3.0 @City-busz</li>
+                  <li>Add XWayland support to adriconf @velurimithun</li>
+                  <li>Don't bind the textdomain, so that we can properly get translations inside flatpak @jlHertel</li>
+                  <li>Add a AUTHORS and CONTRIBUTING file @jlHertel</li>
+              </ul>
+          </description>
+      </release>
       <release version="1.3" date="2018-09-15" urgency="low">
          <description>
             <p>This is mostly a bug-fixing release.</p>
