@@ -9,9 +9,7 @@
       "--socket=wayland",
       "--share=ipc",
       "--device=dri",
-      "--filesystem=~/.drirc",
-      "--filesystem=/etc/drirc:ro",
-      "--filesystem=/usr/share/drirc.d:ro"
+      "--filesystem=host"
    ],
    "cleanup": [
       "/include",
@@ -188,13 +186,6 @@
             {
                "type": "file",
                "path": "br.com.jeanhertel.adriconf.appdata.xml"
-            },
-            {
-               "type": "shell",
-               "//": "FIXME: Upstream this, ignore check if running in flatpak",
-               "commands": [
-                  "sed -i 's|/var/run/host/|/|' adriconf/Utils/ConfigurationLoader.cpp"
-               ]
             }
          ],
          "build-commands": [
