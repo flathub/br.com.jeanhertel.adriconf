@@ -11,7 +11,7 @@
       "--device=dri",
       "--filesystem=~/.drirc",
       "--filesystem=/etc/drirc:ro",
-      "--filesystem=/usr/share/drirc.d/:ro"
+      "--filesystem=/usr/share/drirc.d:ro"
    ],
    "cleanup": [
       "/include",
