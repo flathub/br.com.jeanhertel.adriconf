@@ -176,12 +176,12 @@
       {
          "name": "adriconf",
          "buildsystem": "cmake-ninja",
-         "config-opts": ["-DENABLE_XWAYLAND=1", "-DENABLE_UNIT_TESTS=0"],
+         "config-opts": ["-DENABLE_UNIT_TESTS=0"],
          "sources": [
             {
                "type": "git",
                "url": "https://github.com/jlHertel/adriconf",
-               "tag": "v1.6"
+               "tag": "v1.6.1"
             },
             {
                "type": "file",
