@@ -26,6 +26,17 @@
       </screenshot>
    </screenshots>
    <releases>
+       <release version="1.7" date="2020-03-14" urgency="low">
+         <description>
+            <p>This is a bug-fix release.</p>
+            <ul>
+               <li>Add IT translation. @albanobattistella</li>
+               <li>Fix incorrect handling of system wide options when multiple drivers are defined. @jlhertel</li>
+               <li>Add option to change default config directories. @jlhertel</li>
+               <li>Add code of conduct. @jlhertel</li>
+            </ul>
+         </description>
+      </release>
        <release version="1.6.1" date="2020-01-27" urgency="low">
          <description>
             <p>This is a bug-fix release to address small issues with the latest release.</p>

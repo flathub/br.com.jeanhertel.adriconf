@@ -180,8 +180,8 @@
          "sources": [
             {
                "type": "git",
-               "url": "https://github.com/jlHertel/adriconf",
-               "tag": "v1.6.1"
+               "url": "https://gitlab.freedesktop.org/mesa/adriconf",
+               "tag": "v1.7"
             },
             {
                "type": "file",
