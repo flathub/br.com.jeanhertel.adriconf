@@ -26,6 +26,19 @@
       </screenshot>
    </screenshots>
    <releases>
+       <release version="2.0" date="2020-07-19" urgency="low">
+         <description>
+            <p>This release is a complete revamp of the user interface. Highlights include:</p>
+            <ul>
+               <li>User Interface is dark by default</li>
+               <li>Completely removed dialogs and replaced them with screens, giving a more natural navigation.</li>
+               <li>Profiles are now saved independently giving the user more control on what to save.</li>
+               <li>Mesa-defined profiles are not shown anymore, avoiding previous confusion on what the user added and what is defined by mesa itself.</li>
+               <li>Better validate when the user adds a new profile.</li>
+               <li>Bug-fix: When switching the GPU on PRIME settings now we keep the same application selected.</li>
+            </ul>
+         </description>
+      </release>
        <release version="1.7" date="2020-03-14" urgency="low">
          <description>
             <p>This is a bug-fix release.</p>
