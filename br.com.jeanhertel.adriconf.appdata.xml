@@ -26,7 +26,7 @@
       </screenshot>
    </screenshots>
    <releases>
-       <release verion="2.1" date="2020-08-02" urgency="low">
+       <release version="2.1" date="2020-08-02" urgency="low">
          <description>
             <p>This is a bug-fix release.</p>
             <ul>
@@ -178,7 +178,7 @@
       </release>
    </releases>
    <content_rating type="oars-1.1" />
-   <url type="homepage">https://github.com/jlHertel/adriconf</url>
+   <url type="homepage">https://gitlab.freedesktop.org/mesa/adriconf</url>
    <update_contact>jean.hertel@hotmail.com</update_contact>
    <developer_name>Jean Hertel</developer_name>
 </component>
