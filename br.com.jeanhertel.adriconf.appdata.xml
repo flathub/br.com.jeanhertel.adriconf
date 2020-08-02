@@ -26,6 +26,16 @@
       </screenshot>
    </screenshots>
    <releases>
+       <release verion="2.1" date="2020-08-02" urgency="low">
+         <description>
+            <p>This is a bug-fix release.</p>
+            <ul>
+               <li>Fix Spin Button fields, so that increment/decrement fields are correctly visible.</li>
+               <li>Improve Switch buttons with more visible colors.</li>
+               <li>Small fix fox incorrect shadows with default GTK+ theme.</li>
+            </ul>
+         </description>
+       </release>
        <release version="2.0" date="2020-07-19" urgency="low">
          <description>
             <p>This release is a complete revamp of the user interface. Highlights include:</p>
