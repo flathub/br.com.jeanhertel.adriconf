@@ -1,7 +1,7 @@
 {
    "app-id": "br.com.jeanhertel.adriconf",
    "runtime": "org.freedesktop.Platform",
-   "runtime-version": "19.08",
+   "runtime-version": "20.08",
    "sdk": "org.freedesktop.Sdk",
    "command": "adriconf",
    "finish-args": [
@@ -185,11 +185,11 @@
             },
             {
                "type": "file",
-               "path": "br.com.jeanhertel.adriconf.appdata.xml"
+               "path": "br.com.jeanhertel.adriconf.metainfo.xml"
             }
          ],
          "build-commands": [
-             "install -Dm644 br.com.jeanhertel.adriconf.appdata.xml /app/share/appdata/br.com.jeanhertel.adriconf.appdata.xml",
+             "install -Dm644 br.com.jeanhertel.adriconf.metainfo.xml /app/share/metainfo/br.com.jeanhertel.adriconf.metainfo.xml",
              "install -Dm644 flatpak/br.com.jeanhertel.adriconf.desktop /app/share/applications/br.com.jeanhertel.adriconf.desktop",
              "install -Dm644 flatpak/br.com.jeanhertel.adriconf.png /app/share/icons/hicolor/256x256/apps/br.com.jeanhertel.adriconf.png"
          ]
