@@ -26,6 +26,21 @@
       </screenshot>
    </screenshots>
    <releases>
+       <release version="2.3" date="2020-09-06" urgency="low">
+         <p>This is a bug-fix release.</p>
+         <ul>
+            <li>Fix missing translations on Flatpak.</li>
+         </ul>
+      </release>
+      <release version="2.2" date="2020-09-06" urgency="low">
+         <description>
+            <p>This is a bug-fix release.</p>
+            <ul>
+               <li>Make sure themes don't add shadows to button.</li>
+               <li>Add tooltips to add profile screen.</li>
+            </ul>
+         </description>
+       </release>
        <release version="2.1" date="2020-08-02" urgency="low">
          <description>
             <p>This is a bug-fix release.</p>
